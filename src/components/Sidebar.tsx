@@ -70,10 +70,10 @@ export default function Sidebar() {
 
           {/* Dropdown */}
           {dropdownOpen && (
-            <div className="absolute bottom-14 left-0 w-[200px] bg-white shadow-xl rounded-xl py-2 border border-gray-200 z-50">
+            <div className="absolute bottom-14 left-0 w-[200px] bg-white shadow-[-5px_5px_10px_rgba(0,0,0,0.2)] rounded-xl px-2 py-2 border border-gray-200 z-50 hover:cursor-pointer">
 
               <button
-                className="font-bold w-full text-left px-4 py-2 hover:bg-gray-100 text-sm text-red-600"
+                className="font-bold w-full text-left px-4 py-2 rounded hover:bg-red-300 text-sm text-red-600 hover:cursor-pointer"
                 onClick={() => handleSignOut()}
               >
                 Logout
